@@ -1,0 +1,77 @@
+@media screen and (max-width: 1024px) {
+  main {
+    margin-top: 20px; }
+    main .main-title {
+      flex: 0 60%; }
+    main .main-img {
+      flex: 0 45%; }
+    main h1 {
+      font-size: 2.5rem; }
+
+  nav ul li {
+    margin-left: 10px;
+    margin-right: 10px; }
+
+  footer {
+    margin-bottom: 20px; } }
+@media screen and (max-width: 940px) {
+  .container {
+    padding-left: 5%;
+    padding-right: 5%; }
+
+  .trial {
+    padding: 14px 20px; } }
+@media screen and (max-width: 780px) {
+  .trial {
+    padding: 14px 20px;
+    font-size: 14px; }
+
+  nav {
+    font-size: 14px; } }
+@media screen and (max-width: 760px) {
+  main h1 {
+    font-size: 2rem; }
+
+  .trial {
+    padding: 10px 17px;
+    font-size: 14px; }
+
+  nav ul li {
+    margin-left: 7px;
+    margin-right: 7px; }
+
+  footer {
+    margin-top: 80px; } }
+@media screen and (max-width: 720px) {
+  #sign {
+    margin-right: 10px; }
+
+  .trial {
+    padding: 10px 12px; } }
+@media screen and (max-width: 700px) {
+  nav ul li {
+    margin-left: 20px;
+    margin-right: 20px; } }
+@media screen and (max-width: 700px) {
+  .nav-login {
+    position: absolute;
+    top: 0;
+    right: -999px;
+    width: 33vw;
+    background: #f3ede5;
+    height: 100%;
+    opacity: 0.9;
+    box-shadow: #f6b300 -4px 6px 20px 2px;
+    text-align: center;
+    padding-top: 31px; }
+
+  .nav-login-active {
+    right: 0;
+    -webkit-animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+
+  .fade {
+    -webkit-animation: fade 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: fade 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; } }
+
+/*# sourceMappingURL=main-media.css.map */
