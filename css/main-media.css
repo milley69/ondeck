@@ -52,6 +52,12 @@
   nav ul li {
     margin-left: 20px;
     margin-right: 20px; } }
+@media screen and (max-width: 699px) {
+  nav ul li {
+    display: none; }
+
+  .main-img {
+    display: none; } }
 @media screen and (max-width: 700px) {
   .nav-login {
     position: absolute;
