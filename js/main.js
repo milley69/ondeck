@@ -24,6 +24,7 @@ if (window.screen.width <= 700) {
 if (window.screen.width <= 580) {
     mainImg.remove()
     burger.onclick = () => {
+        navLogin.classList.add('nav-login-active')
         navLinks.classList.add('nav-links-active')
     }
 }
